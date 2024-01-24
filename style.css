@@ -1,0 +1,51 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+#main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock_container{
+    width: 690px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+#displayTimer{
+    font-size: 100px;
+    font-weight: 600;
+    color: cyan;
+}
+button{
+ width:90px;
+ height: 50px;
+ background-color: red;
+ color: #fff;
+ font-weight: 700;
+ font-size: large;
+ border-radius: 25px;
+}
+.colorChange{
+    opacity: 0.5;
+}
