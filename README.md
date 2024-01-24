@@ -20,4 +20,4 @@ The Stopwatch JavaScript project is a web-based application that allows users to
 
 ## Demo
 
-You can view a live demo of the project [here](#) (insert your demo link).
+You can view a live demo of the project [here](https://pravin-m-24.github.io/Stop_Watch_js/).
